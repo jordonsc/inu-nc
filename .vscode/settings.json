@@ -1,0 +1,6 @@
+{
+    "python.autoComplete.extraPaths": [
+        "esp32/src",
+        "hass/src",
+    ]
+}

@@ -1,0 +1,2 @@
+class ServerTerminatedConnectionError(Exception):
+    pass
