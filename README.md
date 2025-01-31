@@ -4,13 +4,13 @@ This is a sister project to the `Inu-Py` framework, but where the original Inu-P
 
 Inu-Py is intended for a wide range of single-purpose devices. Inu-NC has a robotics focus and trades the robust NATS message stream history for a fire-and-forget approach. Missed messages will be ignored, however device state will be updated upon reconnection.
 
-Inu-NC                             | Inu-Py
-------------------------------------------------------------------------------------
-Client-Server TCP architecture     | Decentralised with streams
-Missed messages lost               | Can recover (but doesn't) from missing events
-Requires a control plane           | Devices can listen to other devices without centralisation
-Robotics focus                     | Sensor focus
-Multiple entities per device       | Single-purpose devices
+| Inu-NC                             | Inu-Py                                                          |
+| ---------------------------------- | --------------------------------------------------------------- |
+| Client-Server TCP architecture     | Decentralised with streams                                      |
+| Missed messages lost               | Can recover (but doesn't) from missing events                   |
+| Requires a control plane           | Devices can listen to other devices without centralisation      |
+| Robotics focus                     | Sensor focus                                                    |
+| Multiple entities per device       | Single-purpose devices                                          |
 
 Control Planes
 --------------
